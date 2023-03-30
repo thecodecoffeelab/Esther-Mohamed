@@ -3,7 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+      #image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      #img-div {
+        margin-top: 30px;
+      }
+      #main {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+      }
+    </style>
   </head>
 
   <body>
@@ -13,7 +28,7 @@
       </div>
       <div id="img-div">
         <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Norman_Borlaug.jpg/260px-Norman_Borlaug.jpg" alt="Dr. Norman Borlaug">
-        <p id="img-caption">Dr. Norman Borlaug (1914-2009) speaking at the Ministerial Conference and Expo on Agricultural Science and Technology in Tokyo, Japan in 2000</p>
+        <div id="img-caption">Dr. Norman Borlaug (1914-2009) speaking at the Ministerial Conference and Expo on Agricultural Science and Technology in Tokyo, Japan in 2000</div>
       </div>
       <div id="tribute-info">
         <h2>About Dr. Norman Borlaug</h2>
@@ -21,7 +36,12 @@
           disease-resistant wheat varieties that were adopted throughout the world during the Green Revolution in the 1960s. For his work, he was awarded the Nobel Peace Prize in 1970.
         </p>
       </div>
-    </main>>
+    
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">
+          Learn more about Dr. Norman Borlaug
+        </a>
+      
+    </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
